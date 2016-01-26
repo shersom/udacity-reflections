@@ -1,0 +1,20 @@
+1. What happens when you initialize a repository? Why do you need to do it?
+
+    When you initialize a Git repository, Git sets up a folder structure to
+    keep track of all of the Git metadata required for it to keep track of
+    whatever files you will be tracking. Git probably doesn't just make a
+    repository by default when you use a Git command that otherwise would
+    operate on an existing repository so that it can give you useful
+    feedback in case you thought you were in a specific repository already,
+    but you actually weren't. By forcing users to be specifically
+    intentional, you avoid various problems.
+
+2. How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+    The staging area is part of Git's metadata. Through it, you tell
+    Git which files containing changes you wish to bundle together in a
+    commit. Other than preventing you from accidentally committing files as
+    part of the wrong commit, I'm not sure what benefits it offers. Rather
+    than allowing you to decide what files should be part of a particular
+    commit, it forces you to decide.

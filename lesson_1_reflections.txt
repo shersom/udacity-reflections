@@ -1,0 +1,52 @@
+1. How did viewing a diff between two versions of a file help you see the
+bug that was introduced?
+
+    By reducing the file to the changes that were made, it was easy to focus
+    on those changes to determine the problem. If not, you'd have to
+    remember all the changes you made and look at those while not getting
+    distracted by everything else to hope to see the bug.
+
+2. How could having easy access to the entire history of a file make you a
+more efficient programmer in the long term?
+
+    By being able to access the history, you can go back and review the
+    circumstances leading up to a certain change or bug. If you have
+    deleted some code but are now hoping to reuse it, you can quickly look
+    back at the state of the file before it was deleted.
+
+3. What do you think are the pros and cons of manually choosing when to
+create a commit, like you do in Git, vs having versions automatically
+saved, like Google Docs does?
+
+    I feel like the actual thing to do is to have a separate editor from
+    your version control that also saves backups automatically. That way
+    the latter can have very purposeful and deliberate commits that would
+    allow one to search for and reference or revert to previous changes.
+    The former would help to protect you from human error and machine
+    frailty.
+
+4. Why do you think some version control systems, like Git, allow saving
+multiple files in one commit, while others, like Google Docs, treat each
+file separately?
+
+    In many cases, versioning is only really useful on a per-file basis. In
+    other cases, the relationship between the files is very intertwined.
+
+5. How can you use the commands git log and git diff to view the history of
+files?
+
+    Use git log to see the purpose of different changes. Use git diff to see
+    exactly what those changes were.
+
+6. How might using version control make you more confident to make changes
+that could break something?
+
+    If there is no consequence to breaking something by trying new things,
+    if you wanted to try something new, why wouldn't you try?
+
+7. Now that you have your workspace set up, what do you want to try using
+Git for?
+
+    I'd like to use git for everything! I really wish I could use it at work
+    instead of SVN. I think it would be easier to make and track the kind of
+    changes that I'd like to.
