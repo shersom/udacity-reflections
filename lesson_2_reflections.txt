@@ -35,3 +35,9 @@ history organized? How would branches help?
     branch, go back to master and do your business. Also, if you know that a
     particular feature is going to take a long time, you can make a branch,
     leaving your production code clean.
+
+5. How do the diagrams help you visualize the branch structure?
+
+    By default. Diagrams are a visualization tool. They take a concept and
+    turn it into visually accessible information. I don't want to say more
+    on that, really.
