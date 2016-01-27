@@ -26,3 +26,12 @@ logical change?
     which gives you the opportunity to check what in those files changed,
     which then allows you to select which files to package into a single
     commit.
+
+4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+    If you were working on a feature and discovered that you needed to make
+    an immediate change for production, you could move your feature into a
+    branch, go back to master and do your business. Also, if you know that a
+    particular feature is going to take a long time, you can make a branch,
+    leaving your production code clean.
