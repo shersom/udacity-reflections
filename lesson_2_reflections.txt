@@ -49,3 +49,14 @@ represent it in the diagram the way we do?
     the combined state of the files at the tips of those branches. Git also
     creates a commit that contains a reference to the tips as well. Two
     separate paths are being mixed together to form a single path again.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing
+merges manually?
+
+    Automatic merging is very convenient when dealing with unrelated
+    changes. It also make you less likely to make stupid mistakes on easy
+    merges. However, it would be very difficult to create an automatic merge
+    that did everything exactly like you wanted it to whenever there were
+    conflicting changes. Doing it by hand gives you total control, so you
+    can pick and choose what changes stay in the final product. It is a
+    tedious business, and fairly error prone.
