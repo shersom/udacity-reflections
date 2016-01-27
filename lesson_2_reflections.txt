@@ -18,3 +18,11 @@ repository? What value do you think it offers?
     part of the wrong commit, I'm not sure what benefits it offers. Rather
     than allowing you to decide what files should be part of a particular
     commit, it forces you to decide.
+
+3. How can you use the staging area to make sure you have one commit per
+logical change?
+
+    The staging area gives you a chance to review which files have changed,
+    which gives you the opportunity to check what in those files changed,
+    which then allows you to select which files to package into a single
+    commit.
