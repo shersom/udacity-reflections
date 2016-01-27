@@ -41,3 +41,11 @@ history organized? How would branches help?
     By default. Diagrams are a visualization tool. They take a concept and
     turn it into visually accessible information. I don't want to say more
     on that, really.
+
+6. What is the result of merging two branches together? Why do we
+represent it in the diagram the way we do?
+
+    Merging branches results in a new set of working copy files that contain
+    the combined state of the files at the tips of those branches. Git also
+    creates a commit that contains a reference to the tips as well. Two
+    separate paths are being mixed together to form a single path again.
