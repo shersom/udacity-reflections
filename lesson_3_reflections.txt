@@ -1,0 +1,4 @@
+1. When would you want to use a remote repository rather than keeping all your work local?
+    If you are collaborating with more people outside of your local network, it would be
+    vital for you to have a networked repository. You also may just want to have things
+    in the cloud for safe keeping.
