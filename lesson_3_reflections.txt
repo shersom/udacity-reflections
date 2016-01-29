@@ -4,3 +4,11 @@ your work local?
     If you are collaborating with more people outside of your local network,
     it would be vital for you to have a networked repository. You also may
     just want to have things in the cloud for safe keeping.
+
+2. Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+    It seems like there might be times where you version of things is not
+    quite ready to merge in changes from a remote. You might want to make
+    what you are working on into a branch, leaving the main part clean and
+    ready to be updated by changes coming from the remote.
