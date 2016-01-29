@@ -12,3 +12,17 @@ automatically stay up-to-date with your remote repository?
     quite ready to merge in changes from a remote. You might want to make
     what you are working on into a branch, leaving the main part clean and
     ready to be updated by changes coming from the remote.
+
+3. Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+    A fork is GitHub specific type of clone (probably). It does a GitHub to
+    GitHub clone of a repository while keeping track of various metadata: a
+    link to the original, how many times that original has been cloned, and
+    probably some other things. Clones are just as they sound a clone of at
+    least one branch of a repository containing everything in the original
+    at the time of cloning. Git will create a remote to whatever was cloned.
+    A branch is created locally and is maintained within a repository by the
+    repository owner. Forks and clones are not. Use forks and clones when
+    you want to experiment with others stuff; use branches when it's your
+    own.
