@@ -46,3 +46,12 @@ easier, and what would be harder?
     or something like that. A free service that maintains some sort of
     version history and provides reasonable collaborative functions. In many
     ways, there would be trade-offs in ease of use and clarity of record.
+
+6. When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+    When you are collaborating with others, it's nearly imperative that the
+    master branch stay clean and only be updated when there is consensus
+    among those collaborators. If you are by yourself, or the change is
+    small enough and it is okay to do so, it would probably be worth the
+    saved effort to just make the change on master.
