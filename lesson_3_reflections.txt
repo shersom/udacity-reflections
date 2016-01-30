@@ -26,3 +26,11 @@ you use one instead of another?
     repository owner. Forks and clones are not. Use forks and clones when
     you want to experiment with others stuff; use branches when it's your
     own.
+
+4. What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+    By having that information, the next time you pull in the changes on the
+    remote, no matter what changes you've made, and no matter what other
+    changes have been made externally, your local Git will have enough
+    information to create safe branches and restore points.
