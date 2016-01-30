@@ -34,3 +34,15 @@ remote stored locally?
     remote, no matter what changes you've made, and no matter what other
     changes have been made externally, your local Git will have enough
     information to create safe branches and restore points.
+
+5. How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+    It depends on with whom and on what. If it's code, I could reasonably
+    expect that they'd be savvy enough to use Git and/or GitHub, but if it's
+    on a recipe book, maybe not. In that sense, it would be easier to get up
+    and running without needing them to learn these new tools. Either way,
+    without Git or GitHub, I'd probably be using something like Google Docs
+    or something like that. A free service that maintains some sort of
+    version history and provides reasonable collaborative functions. In many
+    ways, there would be trade-offs in ease of use and clarity of record.
